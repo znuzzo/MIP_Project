@@ -10,6 +10,7 @@ class BoxDetail(BaseModel):
     volume_cap: float
     weight_cap: float
     base_cost: float
+    box_count: int
 
 class PackingRequest(BaseModel):
     items: Dict[str, ItemDetail]
